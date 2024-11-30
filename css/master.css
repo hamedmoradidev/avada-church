@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    .myBackground{
+        background-image: url(../img/back.webp);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .myTestimonial{
+        background-image: url(../img/testimonial.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .myGuitar{
+        background-image: url(../img/blog_2c-compressor-2.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: grayscale(50%);
+    }
+}
+@font-face{
+    font-family: Raleway;
+    src: url("../font/Raleway-VariableFont_wght.ttf") format("opentype");
+}
